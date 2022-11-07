@@ -1,0 +1,23 @@
+a=c(1,2,3,4,5)
+b=c(2,2,1,1,2)
+tbl=data.frame(a,b)
+rownames(tbl)=c("Felipe", "Luiz", "Gabriela", "Katiusse","Andre")
+tbl
+colnames(tbl_2)=c("age","sex","drug")
+c=c(rep("citalopran",5))
+c
+tbl_2=cbind(tbl, c)
+tbl_2
+summary(tbl_2)
+
+install.packages("ggplot2")
+
+library(ggplot2)#função para carregar pacotes
+
+install.packages("swirl")
+library(swirl)
+
+swirl()
+adl
+1
+bye()
