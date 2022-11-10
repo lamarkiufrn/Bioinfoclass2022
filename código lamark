@@ -1,0 +1,15 @@
+a = 1+1
+b= 1*2
+a-b
+y=c(33,29,0,0,19)
+x=c("M","F","M","F","M")
+Z=c(33,29,0,0,19)
+W=c("M","F","M","F","M")
+tlb= data.frame(Z,W)
+row.names(tlb) = c("lamark", "lorena", "pedrinho", "maria lis", "lamarkinho")
+tlb
+colnames(tlb)=c("idade","sexo")
+tlb
+medicamento=c(rep("medicamento"),5)
+tlb_2 = cbind(tlb,"cetalopran")
+tlb_2
